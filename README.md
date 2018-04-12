@@ -1,22 +1,27 @@
-> 1. Fork+clone this repo
-> 2. Set your gh-pages to build from master branch
-> 3. Put a link to the tests in your repo's description
-> 4. Choose a Codewar Kata to study
-> 5. Go through the repo and fill in every blank
-> 6. Publish and include this repo in your Codewar Gallery
 
 
-# [<challenge name>](https://www.codewars.com/kata/<challenge name>)
 
-Explain the challenge as completely as you can.
+# [Disemvowel Trolls](https://www.codewars.com/kata/<challenge name>)
 
-<function name>: Function
-* Args: (how many args does this function take?)
-  * (List each arg, it's type, and it's purpose)
-* Return: (what type does this function return?)
-  * (Describe the return value)
-* Behavior: (What does this function do?)
 
+Trolls are attacking your comment section!
+
+A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
+
+Your task is to write a function that takes a string and return a new string with all vowels removed.
+
+For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+
+Note: for this kata y isn't considered a vowel.
+
+
+
+removeVowels: Function
+* Args: 1
+  * string
+* Return: string
+  * A string which is the same as the input string but without the vowels (i.e. a, e, i, o and u)
+* Behavior: Accepts a string, removes all its vowels and return a new string without vowels
 
 ### Index
 * [Solution Process](#solution-process)
