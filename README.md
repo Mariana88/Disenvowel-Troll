@@ -86,28 +86,19 @@ List some applications or use cases for your solution.  Try for 3-5.
 ## Learning Journal
 
 Things I learned studying this problem:
-* 
-*
-*
-*
+* Iterating over an object
+* Setting a property of an object
+* Setting the value of an object's property.
 
 New vocabulary:
-* 
-* 
-*
-*
+
 
 Things I struggled with:
-* 
-* 
-* 
-* 
+* Using quotes to indicate objects properties and values or not
+
 
 My study goals and stragegies:
-* 
-* 
-* 
-*
+* How to efficiently check if a given value is present anywhere in an entire object (i.e. is a value of any of the object's properties)
 
 
 [TOP](#index)

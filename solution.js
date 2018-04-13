@@ -4,16 +4,22 @@ function removeVowels (str){
     let strObject = {};
     const vowels = {
         v1: "a",
+        V1: "A",
         v2: "e",
+        V2: "E",
         v3: "i",
+        V3: "I",
         v4: "o",
-        v5: "u"
+        V4: "O",
+        v5: "u",
+        V5: "U"
     }
     for (let i=0; i<str.length; i++){
         strObject[i] = str[i];
     } 
     for (let x in strObject){
-            if (strObject[x] == vowels.v1 || strObject[x] == vowels.v2 || strObject[x] == vowels.v3 || strObject[x] == vowels.v4 || strObject[x] == vowels.v5){
+            for (let y in vowels){
+                if (strObject[x] == vowels[y]){
             } else {
             strNoVowels = strNoVowels + strObject[x];
             }
