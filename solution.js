@@ -18,11 +18,15 @@ function removeVowels (str){
         strObject[i] = str[i];
     } 
     for (let x in strObject){
-            for (let y in vowels){
-                if (strObject[x] == vowels[y]){
-            } else {
-            strNoVowels = strNoVowels + strObject[x];
+        for (let y in vowels){
+            if (strObject[x] == vowels[y]){
+                delete strObject[x];
+                break;
             }
+        }
+        if (strObject[x] !== undefined){
+            strNoVowels = strNoVowels + strObject[x];
+        }      
     }
     return strNoVowels;
 }

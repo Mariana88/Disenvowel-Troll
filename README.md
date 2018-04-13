@@ -35,21 +35,12 @@ removeVowels: Function
 
 ## Solution Process
 
-Using plain sentences and pseudocode, explain the process you followed from reading the Codewar prompt to coding your final solution.  Describe what you were thinking at every step, how that step moved you forward (or backwards, note that too!), and provide a little pseudocode to illustrate each step.
-
-This may feel tedious but we promise you it will pay off in the long run.  By paying attention to you thinking process you will start to notice what strategies work for you, which strategies you use too often, and where you struggle.  Even more importantly, writing out your process will help you generalize your problem solving skills - taking them from the world of coding small challenges to the world of application development.
-
-If you find yourself getting stuck or having trouble understanding just what you're supposed to do, try taking a few simple examples inputs and solving them by hand.  This will make the problem more tangible and less abstract.  Be sure to include these manual solutions in your process description!
-
-Stick with it!  It's best to learn how to analyze your thinking while the problems are simpler.  You don't want to be trying to understand a full project __and__ your problem solving style a the same time.
-
 [TOP](#index)
 
 ---
 
 ## Solution Explanation
 
-Explain your solution in detail, however works for you.  Perhaps by using a specific input to illustrate, by listing the strategies you used, or by including a diagram [directly from Sketchboard.io](https://sketchboard.io/blog/2014/03/06/github-sketchboard.html).
 
 [TOP](#index)
 
@@ -57,7 +48,10 @@ Explain your solution in detail, however works for you.  Perhaps by using a spec
 
 ## Constraints
 
-List and explain the constraints you placed on your solution.
+This challenge was used to learn about objects and how to work with them. Therefore the following constraints were placed:
+* Use at least one object
+* do not use arrays
+* do not use string index to (re)construct the string without vowels
 
 
 [TOP](#index)
